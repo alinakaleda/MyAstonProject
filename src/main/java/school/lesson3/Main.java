@@ -18,8 +18,11 @@ public class Main {
         System.out.println("Задание 1");
         int a = 5, b = 3;
         int c = a + b;
-        if (c >= 10 && c <= 20) {System.out.println("true");}
-        else {System.out.println("false");}
+        if (c >= 10 && c <= 20) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
         System.out.println();
     }
 
@@ -35,8 +38,11 @@ public class Main {
     public static void three() {
         System.out.println("Задание 3");
         int a = 5;
-        if (a >= 0) {System.out.println("положительное");}
-        else {System.out.println("отрицательное");}
+        if (a >= 0) {
+            System.out.println("положительное");
+        } else {
+            System.out.println("отрицательное");
+        }
         System.out.println();
     }
 
@@ -50,8 +56,11 @@ public class Main {
     public static void five() {
         System.out.println("Задание 5");
         int year = 9;
-        if (!(year % 4 == 0) || ((year % 100 == 0) && !(year % 400 == 0))) {System.out.println("не високосный");}
-        else {System.out.println("високосный");}
+        if (!(year % 4 == 0) || ((year % 100 == 0) && !(year % 400 == 0))) {
+            System.out.println("не високосный");
+        } else {
+            System.out.println("високосный");
+        }
         System.out.println();
     }
 
